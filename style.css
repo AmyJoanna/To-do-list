@@ -1,0 +1,55 @@
+ body {
+            font-family: Arial, sans-serif;
+            color:black;
+            font-weight:bold;
+        }
+        #taskInput {
+            width: 70%;
+            padding: 10px;
+        }
+        #addButton {
+            padding: 10px;
+        }
+        #taskList {
+            list-style-type:lower-roman;
+            padding: 0;
+        }
+        .taskItem {
+            display: flex;
+            justify-content: space-between;
+            align-items: center;
+            padding: 10px;
+            border-bottom: 1px solid #ccc;
+        }
+        .deleteButton {
+            cursor: pointer;
+            background-color: #de0101;
+            color: #fff;
+            padding: 5px 10px;
+            border: none;
+            border-radius: 5px;
+        }
+        #main {
+            display: flex;
+            height:70%;
+            width:50%;
+            border: 1px solid #ccc;
+            justify-content: center;
+            align-items: center;
+            flex-direction: column;
+            box-shadow: blue 0px 0px 0px 2px inset, rgb(255, 255, 255) 10px -10px 0px -3px, rgb(31, 193, 27) 10px -10px, rgb(255, 255, 255) 20px -20px 0px -3px, rgb(255, 217, 19) 20px -20px, rgb(255, 255, 255) 30px -30px 0px -3px, rgb(255, 156, 85) 30px -30px, rgb(255, 255, 255) 40px -40px 0px -3px, rgb(255, 85, 85) 40px -40px;
+            margin: auto; 
+            margin-top: 10%;
+             
+        }
+
+        #content{
+            display:flex;
+            justify-content:center;
+            align-items:center;
+            flex-direction:column;
+        }
+        #list {
+         width: 70%; 
+         margin-top: 20px; 
+}
